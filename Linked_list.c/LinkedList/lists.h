@@ -15,4 +15,5 @@ typedef struct listint_s
 } listint_t;
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void add_at_pos(listint_t *head, int data , int pos);
+listint_t *del_first(listint_t *head);
 #endif
